@@ -1,0 +1,4 @@
+﻿  ex22.cpp
+C:\Users\workstation\Desktop\Facultate\al doilea pas\First Year, First Semester\Programarea aplicatiilor securizate\clabs\CreateDynamicLibSol\CreateDynamicLibProj\ex22.cpp(13,24): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+     Creating library C:\Users\workstation\Desktop\Facultate\al doilea pas\First Year, First Semester\Programarea aplicatiilor securizate\clabs\CreateDynamicLibSol\CreateDynamicLibProj\x64\Debug\CreateDynamicLibProj.lib and object C:\Users\workstation\Desktop\Facultate\al doilea pas\First Year, First Semester\Programarea aplicatiilor securizate\clabs\CreateDynamicLibSol\CreateDynamicLibProj\x64\Debug\CreateDynamicLibProj.exp
+  CreateDynamicLibProj.vcxproj -> C:\Users\workstation\Desktop\Facultate\al doilea pas\First Year, First Semester\Programarea aplicatiilor securizate\clabs\CreateDynamicLibSol\CreateDynamicLibProj\x64\Debug\CreateDynamicLibProj.dll

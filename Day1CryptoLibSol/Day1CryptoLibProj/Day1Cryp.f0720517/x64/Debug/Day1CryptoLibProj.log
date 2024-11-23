@@ -1,0 +1,7 @@
+﻿  ex30_MD5.cpp
+C:\Users\workstation\Desktop\Facultate\al doilea pas\First Year, First Semester\Programarea aplicatiilor securizate\clabs\Day1CryptoLibSol\Day1CryptoLibProj\ex30_MD5.cpp(30,24): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+ex30_MD5.obj : error LNK2019: unresolved external symbol MD5_Init referenced in function main
+ex30_MD5.obj : error LNK2019: unresolved external symbol MD5_Update referenced in function main
+ex30_MD5.obj : error LNK2019: unresolved external symbol MD5_Final referenced in function main
+C:\Users\workstation\Desktop\Facultate\al doilea pas\First Year, First Semester\Programarea aplicatiilor securizate\clabs\Day1CryptoLibSol\Day1CryptoLibProj\x64\Debug\libcrypto.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\workstation\Desktop\Facultate\al doilea pas\First Year, First Semester\Programarea aplicatiilor securizate\clabs\Day1CryptoLibSol\Day1CryptoLibProj\x64\Debug\Day1CryptoLibProj.exe : fatal error LNK1120: 3 unresolved externals
