@@ -5,6 +5,8 @@ VisualStudioVersion = 17.11.35431.28
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day1CryptoLibProj", "Day1CryptoLibProj\Day1CryptoLibProj.vcxproj", "{F0720517-93BC-491D-BA59-7B456458AEE8}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Day2CryptoLibProj", "Day2CryptoLibProj\Day2CryptoLibProj.vcxproj", "{2E4B52FB-3DB8-419C-8527-8461C7008AD8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{F0720517-93BC-491D-BA59-7B456458AEE8}.Release|x64.Build.0 = Release|x64
 		{F0720517-93BC-491D-BA59-7B456458AEE8}.Release|x86.ActiveCfg = Release|Win32
 		{F0720517-93BC-491D-BA59-7B456458AEE8}.Release|x86.Build.0 = Release|Win32
+		{2E4B52FB-3DB8-419C-8527-8461C7008AD8}.Debug|x64.ActiveCfg = Debug|x64
+		{2E4B52FB-3DB8-419C-8527-8461C7008AD8}.Debug|x64.Build.0 = Debug|x64
+		{2E4B52FB-3DB8-419C-8527-8461C7008AD8}.Debug|x86.ActiveCfg = Debug|Win32
+		{2E4B52FB-3DB8-419C-8527-8461C7008AD8}.Debug|x86.Build.0 = Debug|Win32
+		{2E4B52FB-3DB8-419C-8527-8461C7008AD8}.Release|x64.ActiveCfg = Release|x64
+		{2E4B52FB-3DB8-419C-8527-8461C7008AD8}.Release|x64.Build.0 = Release|x64
+		{2E4B52FB-3DB8-419C-8527-8461C7008AD8}.Release|x86.ActiveCfg = Release|Win32
+		{2E4B52FB-3DB8-419C-8527-8461C7008AD8}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -15,13 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ex30_SHA256.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ex30_MD5.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ex30_SHA1.cpp">
+    <ClCompile Include="ex35_RSA_verify.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
