@@ -1,2 +1,7 @@
-﻿  ex30_SHA256.cpp
-  Day1CryptoLibProj.vcxproj -> C:\Users\workstation\Desktop\Facultate\al doilea pas\First Year, First Semester\Programarea aplicatiilor securizate\clabs\Day1CryptoLibSol\Debug\Day1CryptoLibProj.exe
+﻿  ex30_MD5.cpp
+  ex30_SHA1.cpp
+  ex30_SHA256.cpp
+  Generating Code...
+ex30_SHA1.obj : error LNK2005: _main already defined in ex30_MD5.obj
+ex30_SHA256.obj : error LNK2005: _main already defined in ex30_MD5.obj
+C:\Users\workstation\Desktop\Facultate\al doilea pas\First Year, First Semester\Programarea aplicatiilor securizate\clabs\Day1CryptoLibSol\Debug\Day1CryptoLibProj.exe : fatal error LNK1169: one or more multiply defined symbols found
