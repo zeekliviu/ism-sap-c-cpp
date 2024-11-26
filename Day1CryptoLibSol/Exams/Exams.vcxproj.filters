@@ -15,26 +15,24 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ex33_rsa_keypair_gen.cpp">
+    <ClCompile Include="iunie.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ex34_RSA_sign.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ex35_RSA_verify.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="TODO_1_ECB.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="TODO_2_ECB.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ex31_aes_cbc.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ex31_aes_ecb.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="aes.key">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ISM_Exam_C.pdf">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="iv.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="name.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
   </ItemGroup>
 </Project>

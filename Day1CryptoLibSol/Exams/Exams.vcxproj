@@ -18,20 +18,11 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="ex31_aes_cbc.cpp" />
-    <ClCompile Include="ex31_aes_ecb.cpp" />
-    <ClCompile Include="ex33_rsa_keypair_gen.cpp" />
-    <ClCompile Include="ex34_RSA_sign.cpp" />
-    <ClCompile Include="ex35_RSA_verify.cpp" />
-    <ClCompile Include="TODO_1_ECB.cpp" />
-    <ClCompile Include="TODO_2_ECB.cpp" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{2e4b52fb-3db8-419c-8527-8461c7008ad8}</ProjectGuid>
-    <RootNamespace>Day2CryptoLibProj</RootNamespace>
+    <ProjectGuid>{1ef3d081-d58b-43e7-8e73-91014e350641}</ProjectGuid>
+    <RootNamespace>Exams</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -90,7 +81,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>C:\Users\workstation\Desktop\Facultate\al doilea pas\First Year, First Semester\Programarea aplicatiilor securizate\clabs\openssl111l-build\lib\libcrypto.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>"C:\Users\workstation\Desktop\Facultate\al doilea pas\First Year, First Semester\Programarea aplicatiilor securizate\clabs\openssl111l-build\lib\libcrypto.lib";%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -137,6 +128,17 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="iunie.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="aes.key" />
+    <None Include="ISM_Exam_C.pdf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="iv.txt" />
+    <Text Include="name.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
