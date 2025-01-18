@@ -1,2 +1,19 @@
-﻿  TODO_2_ECB.cpp
-  Day2CryptoLibProj.vcxproj -> C:\Users\workstation\Desktop\Facultate\al doilea pas\First Year, First Semester\Programarea aplicatiilor securizate\clabs\Day1CryptoLibSol\Debug\Day2CryptoLibProj.exe
+﻿  ex31_aes_cbc.cpp
+  ex31_aes_ecb.cpp
+  ex33_rsa_keypair_gen.cpp
+  ex34_RSA_sign.cpp
+  ex35_RSA_verify.cpp
+  TODO_1_ECB.cpp
+  TODO_2_ECB.cpp
+  Generating Code...
+ex31_aes_ecb.obj : error LNK2005: _main already defined in ex31_aes_cbc.obj
+ex33_rsa_keypair_gen.obj : error LNK2005: "void __cdecl printArray(unsigned char const * const,unsigned char,char const * const)" (?printArray@@YAXQBEEQBD@Z) already defined in ex31_aes_cbc.obj
+ex33_rsa_keypair_gen.obj : error LNK2005: _main already defined in ex31_aes_cbc.obj
+ex34_RSA_sign.obj : error LNK2005: _OPENSSL_Applink already defined in ex33_rsa_keypair_gen.obj
+ex34_RSA_sign.obj : error LNK2005: _main already defined in ex31_aes_cbc.obj
+ex35_RSA_verify.obj : error LNK2005: _OPENSSL_Applink already defined in ex33_rsa_keypair_gen.obj
+ex35_RSA_verify.obj : error LNK2005: _main already defined in ex31_aes_cbc.obj
+TODO_1_ECB.obj : error LNK2005: _main already defined in ex31_aes_cbc.obj
+TODO_2_ECB.obj : error LNK2005: _main already defined in ex31_aes_cbc.obj
+     Creating library C:\Users\workstation\Desktop\Facultate\al doilea pas\First Year, First Semester\Programarea aplicatiilor securizate\clabs\Day1CryptoLibSol\Debug\Day2CryptoLibProj.lib and object C:\Users\workstation\Desktop\Facultate\al doilea pas\First Year, First Semester\Programarea aplicatiilor securizate\clabs\Day1CryptoLibSol\Debug\Day2CryptoLibProj.exp
+C:\Users\workstation\Desktop\Facultate\al doilea pas\First Year, First Semester\Programarea aplicatiilor securizate\clabs\Day1CryptoLibSol\Debug\Day2CryptoLibProj.exe : fatal error LNK1169: one or more multiply defined symbols found
