@@ -27,5 +27,8 @@
     <ClCompile Include="ex36_ECDSA.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ex37_SHA3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

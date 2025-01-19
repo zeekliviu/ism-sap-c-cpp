@@ -22,6 +22,25 @@ int main()
 
 	ECDSA_sign(0, SHA1, sizeof(SHA1), signature, &signLen, eck); // ECDSA signature generated into signature buffer; for the same EC private key, each ECDSA signature will be different for the next calls to ECDSA_sign
 
+	ECDSA_SIG* pBNSig = NULL;
+	pBNSig = ECDSA_SIG_new();
+	// signature[5] = 0x00; // impact on R content (signature becomesc invalid)
+	// signature[0] = 0x00; // impact on the structure of the DER (functions throw errors)
+	d2i_ECDSA_SIG(&pBNSig, (const unsigned char**) & signature, signLen); // transform the DER byte array into 2 BIGNUM structures
+	int result = ECDSA_do_verify(SHA1, sizeof(SHA1), pBNSig, eck); // verify the signature
+
+	if (result == 1)
+	{
+		printf("Signature is valid!\n");
+	}
+	else if (result == 0)
+	{
+		printf("Signature is invalid!\n");
+	}
+	else {
+		printf("An error has occured.\n");
+	}
+
 	FILE* sigFile = fopen("signature.sig", "wb");
 	fwrite(signature, 1, signLen, sigFile);
 
