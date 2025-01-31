@@ -131,12 +131,19 @@
   <ItemGroup>
     <Text Include="10-million-password-list-top-1000000.txt" />
     <Text Include="Accounts.txt" />
+    <Text Include="Accounts_exam.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="h2.cpp" />
+    <ClCompile Include="h2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="pass.key" />
+    <None Include="pass_exam.key" />
+    <None Include="Reqs_exam.pdf" />
+    <None Include="RSAPrivateKey_exam.pem" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

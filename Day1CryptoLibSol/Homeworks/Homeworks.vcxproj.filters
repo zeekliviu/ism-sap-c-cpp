@@ -21,14 +21,29 @@
     <Text Include="Accounts.txt">
       <Filter>Resource Files</Filter>
     </Text>
+    <Text Include="Accounts_exam.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="h2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="pass.key">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="pass_exam.key">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Reqs_exam.pdf">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RSAPrivateKey_exam.pem">
       <Filter>Resource Files</Filter>
     </None>
   </ItemGroup>
